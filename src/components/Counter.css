@@ -1,0 +1,86 @@
+.CounterBox {
+    margin: 1rem; 
+    width: 271px;
+    height: 271px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 25%), 0 3px 10px 5px rgb(0 0 0 / 30%);
+}
+
+#destroyCounter {
+    display: block;
+    margin-left: auto;
+    margin-top: -3px;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.counter {
+    width: 50%;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #1B2442;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: #2C3A6A;
+}
+
+
+#counter {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+    width: inherit;
+    -webkit-appearance: none;
+}
+
+
+
+.title {
+    margin-top: 15%;
+    border-style: none;
+    background-color: transparent;
+    width: 80%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #2C3A6A;
+}
+
+.count-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: #2b3867;
+    font-weight: bold;
+    height: auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
