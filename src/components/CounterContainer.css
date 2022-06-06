@@ -4,11 +4,6 @@
     flex-direction: row;
 }
 
-#CounterContainer:first-child {
-    margin-left: 30px;
-    
-}
-
 #DummyBox {
     display: flex;
     justify-content: center;
