@@ -10,7 +10,7 @@ function CounterContainer(){
   const [state, setState] = useState({counters: [<Counter id={id} key={nanoid()}/>]});
   return(
     <Context.Provider value={[state, setState]}>
-    <div className="CounterContainer">
+    <div id="CounterContainer" className="CounterContainer">
       {state.counters}
       <div id="DummyBox" className="CounterBox count-btn" onClick={()=>{setId(id+1);setState({counters: [...state.counters,<Counter id={id} key={nanoid()}/>]})}}>+</div>
     </div>

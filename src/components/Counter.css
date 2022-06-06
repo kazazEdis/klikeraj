@@ -1,5 +1,7 @@
 .CounterBox {
-    margin: 1.5rem; 
+    margin-top: 3rem;
+    margin-right: 1.5rem; 
+    margin-left: 1.5rem;
     width: 271px;
     height: 271px;
     background: #FFFFFF;
@@ -7,6 +9,7 @@
     text-align: center;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 25%), 0 3px 10px 5px rgb(0 0 0 / 30%);
 }
+
 
 #destroyCounter {
     display: block;
