@@ -1,6 +1,11 @@
 import './Counter.css';
 import React, {useContext, useState} from "react";
 import Context from "./Context";
+import minusIcon from "../img/Minus.svg";
+import plusIcon from "../img/Plus.svg";
+import resetIcon from "../img/ResetButton.svg";
+import exitIcon from "../img/X.svg";
+
 
 
 function Counter(props) {
@@ -9,13 +14,15 @@ function Counter(props) {
   const [title, setTitle] = useState("Title");
   
   
+  const selectAll = (e)=>{e.target.select();}
+
   const validateTitle = (e)=>{
     switch(e.target.value.length) {
         case 9:
           e.target.style.fontSize = "36px";
           e.target.style.fontWeight = "650";
           break;
-        case 12:
+        case 10:
           e.target.style.fontSize = "26px";
           e.target.style.fontWeight = "750";
           break;
@@ -47,8 +54,8 @@ function Counter(props) {
   }
 
   const handleCounterChange = (e) => {
-    let value = (e.target.value ? parseInt(e.target.value) : 0);
-    this.setState({counter: value});
+    let value = e.target.value ? parseInt(e.target.value) : 0;
+    setCounter(value);
   }
 
   const handledestroyCounter = () => {
@@ -59,13 +66,21 @@ function Counter(props) {
 
   return (
       <div className="CounterBox">
-        <button id="destroyCounter" className="count-btn" type="button" onClick={handledestroyCounter}>x</button>
-        <button className="count-btn" type="button" onClick={handleDecrement}>-</button>
-          <input type="number" name="counter" className="counter" step="1" value={counter} onChange={handleCounterChange}/>
-        <button className="count-btn" type="button" onClick={handleIncrement}>+</button>
-        <input name="titleBox" className="title" type="text" maxLength="15" value={title} onChange={validateTitle}></input>
+        <button id="destroyCounter" className="count-btn" type="button" onClick={handledestroyCounter}>
+          <img src={exitIcon} Style="width: 1rem;" alt='X' />
+        </button>
+        <button className="count-btn" type="button" onClick={handleDecrement}>
+          <img src={minusIcon} Style="width: 2rem;" alt='-' />
+        </button>
+        <input type="number" name="counter" className="counter" step="1" value={counter} onClick={selectAll} onChange={handleCounterChange}/>
+        <button className="count-btn" type="button" onClick={handleIncrement}>
+          <img src={plusIcon} Style="width: 2rem;" alt='+' />
+        </button>
+        <input name="titleBox" className="title" type="text" maxLength="15" value={title} onClick={selectAll} onChange={validateTitle}></input>
         <br/>
-        <button type="button" onClick={()=>setCounter(0)}>Reset</button>
+        <button type="button"  className="count-btn reset-btn" onClick={()=>setCounter(0)}>
+          <img src={resetIcon} Style="height: 1.5rem;" alt='Reset' />
+          </button>
       </div>
   );
 

@@ -15,6 +15,7 @@ function CounterContainer(){
   const initialCounterNo = parseInt(bodyWidth / counterWidth) - 1;
   for (let index = 0; index < initialCounterNo; index++) {
     initialCounters.push(<Counter id={id} key={nanoid()}/>)
+    id++;
   }
 
   const styles = {

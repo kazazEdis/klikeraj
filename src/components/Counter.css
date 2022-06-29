@@ -13,17 +13,20 @@
 
 #destroyCounter {
     display: block;
+    height:fit-content;
+    margin-bottom: 1rem;
     margin-left: 240px;
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
 }
 
 .counter {
+    height: 3rem;
     width: 50%;
-    font-size: 30px;
-    border: 1px solid #ccc;
+    font-size: 3rem;
+    border: 0px;
     text-align: center;
-    margin: 5%;
+    margin: 0 5% 0 5%;
     background: #1B2442;
     border-radius: 8px;
     color: #ffffff;
@@ -32,7 +35,7 @@
 
 h1 {
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
@@ -41,7 +44,7 @@ h1 {
 
 
 #counter {
-    font-size: 2em;
+    font-size: 3rem;
     text-align: center;
     margin: 0 auto;
     width: inherit;
@@ -67,7 +70,7 @@ input[type=number] {
     background-color: transparent;
     width: 80%;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -82,7 +85,6 @@ input[type=number] {
     font-size: 2em;
     color: #2b3867;
     font-weight: bold;
-    height: auto;
+    height: 3rem;
 }
-
 
