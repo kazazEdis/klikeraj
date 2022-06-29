@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#ED1C1C;}
+	.st2{display:inline;fill:#FFFFFF;}
+	.st3{display:inline;}
+	.st4{fill:#3390FF;}
+	.st5{fill:#FFFFFF;}
+</style>
+<g id="Layer_1">
+</g>
+<g id="Layer_2" class="st0">
+	<circle id="XMLID_1_" class="st1" cx="540" cy="540" r="530.9"/>
+</g>
+<g id="Layer_3" class="st0">
+	<path id="XMLID_14_" class="st2" d="M540,157.1v148.8c129.3,0,234.1,104.8,234.1,234.1S669.3,774.1,540,774.1
+		c-64.6,0-123.2-26.2-165.5-68.6L269.2,810.8c69.3,69.3,165,112.1,270.8,112.1c211.5,0,382.9-171.4,382.9-382.9
+		S751.5,157.1,540,157.1z"/>
+	<polygon id="XMLID_2_" class="st2" points="540,368 351,240 540,112 	"/>
+</g>
+<g id="Layer_4" class="st0">
+	<circle id="XMLID_3_" class="st3" cx="540" cy="540" r="540"/>
+</g>
+<g id="Layer_5" class="st0">
+	<path id="XMLID_4_" class="st2" d="M701.5,833.6L246.4,378.5c-36.5-36.5-36.5-95.7,0-132.2l0,0c36.5-36.5,95.7-36.5,132.2,0
+		l455.1,455.1c36.5,36.5,36.5,95.7,0,132.2l0,0C797.1,870.1,738,870.1,701.5,833.6z"/>
+	<path id="XMLID_6_" class="st2" d="M246.4,701.5l455.1-455.1c36.5-36.5,95.7-36.5,132.2,0l0,0c36.5,36.5,36.5,95.7,0,132.2
+		L378.5,833.6c-36.5,36.5-95.7,36.5-132.2,0l0,0C209.9,797.1,209.9,738,246.4,701.5z"/>
+</g>
+<g id="Layer_6">
+	<rect id="XMLID_5_" class="st4" width="1080" height="1080"/>
+</g>
+<g id="Layer_7">
+	<path id="XMLID_10_" class="st5" d="M900,417L237.3,211.3L390.5,888L534,755.4l99.3,107.4c101-39.5,175.2-108.1,222.6-205.7
+		l-99.3-107.4L900,417z"/>
+</g>
+</svg>
