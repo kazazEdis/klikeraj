@@ -58,7 +58,7 @@ function Counter(props) {
     setCounter(value);
   }
 
-  const handledestroyCounter = () => {
+  const handleDestroyCounter = () => {
     let newCounters = context.counters.filter(counter => counter.props.id !== props.id);
     setContext({counters: newCounters});
   }
@@ -66,21 +66,21 @@ function Counter(props) {
 
   return (
       <div className="CounterBox">
-        <button id="destroyCounter" className="count-btn" type="button" onClick={handledestroyCounter}>
-          <img src={exitIcon} Style="width: 1rem;" alt='X' />
+        <button id="destroyCounter" className="count-btn" type="button" onClick={handleDestroyCounter}>
+          <img src={exitIcon} style={{width: "1rem"}} alt='X' />
         </button>
         <button className="count-btn" type="button" onClick={handleDecrement}>
-          <img src={minusIcon} Style="width: 2rem;" alt='-' />
+          <img src={minusIcon} style={{width: "2rem"}} alt='-' />
         </button>
         <input type="number" name="counter" className="counter" step="1" value={counter} onClick={selectAll} onChange={handleCounterChange}/>
         <button className="count-btn" type="button" onClick={handleIncrement}>
-          <img src={plusIcon} Style="width: 2rem;" alt='+' />
+          <img src={plusIcon} style={{width: "2rem"}} alt='+' />
         </button>
         <input name="titleBox" className="title" type="text" maxLength="15" value={title} onClick={selectAll} onChange={validateTitle}></input>
         <br/>
         <button type="button"  className="count-btn reset-btn" onClick={()=>setCounter(0)}>
-          <img src={resetIcon} Style="height: 1.5rem;" alt='Reset' />
-          </button>
+          <img src={resetIcon} style={{height: "1.5rem"}} alt='Reset' />
+        </button>
       </div>
   );
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;fill:#ED1C1C;}
 	.st2{display:inline;fill:#FFFFFF;}
 	.st3{display:inline;}
-	.st4{fill:#3390FF;}
+	.st4{fill:#1071E5;}
 	.st5{fill:#FFFFFF;}
+	.st6{fill:#999999;}
 </style>
-<g id="Layer_1">
+<g id="Layer_1_1_">
 </g>
 <g id="Layer_2" class="st0">
 	<circle id="XMLID_1_" class="st1" cx="540" cy="540" r="530.9"/>
@@ -28,13 +29,14 @@
 	<path id="XMLID_4_" class="st2" d="M701.5,833.6L246.4,378.5c-36.5-36.5-36.5-95.7,0-132.2l0,0c36.5-36.5,95.7-36.5,132.2,0
 		l455.1,455.1c36.5,36.5,36.5,95.7,0,132.2l0,0C797.1,870.1,738,870.1,701.5,833.6z"/>
 	<path id="XMLID_6_" class="st2" d="M246.4,701.5l455.1-455.1c36.5-36.5,95.7-36.5,132.2,0l0,0c36.5,36.5,36.5,95.7,0,132.2
-		L378.5,833.6c-36.5,36.5-95.7,36.5-132.2,0l0,0C209.9,797.1,209.9,738,246.4,701.5z"/>
+		l-455.2,455c-36.5,36.5-95.7,36.5-132.2,0l0,0C209.9,797.1,209.9,738,246.4,701.5z"/>
 </g>
 <g id="Layer_6">
-	<rect id="XMLID_5_" class="st4" width="1080" height="1080"/>
+	<path class="st4" d="M0,0v1080h1080V0H0z M633.3,862.8L534,755.4l222.6-205.7l-79,293C663.5,850.1,648.7,856.8,633.3,862.8z"/>
 </g>
 <g id="Layer_7">
-	<path id="XMLID_10_" class="st5" d="M900,417L237.3,211.3L390.5,888L534,755.4l99.3,107.4c101-39.5,175.2-108.1,222.6-205.7
-		l-99.3-107.4L900,417z"/>
+	<path class="st5" d="M756.6,549.7l99.3,107.4c-40.2,82.7-99.6,144.6-178.3,185.6L756.6,549.7z"/>
+	<polygon class="st5" points="900,417 756.6,549.7 534,755.4 390.5,888 237.3,211.3 	"/>
 </g>
+<path class="st6" d="M756.6,549.7l-79,293c-14.1,7.4-28.9,14.1-44.3,20.1L534,755.4L756.6,549.7z"/>
 </svg>

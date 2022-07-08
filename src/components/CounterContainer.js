@@ -23,6 +23,7 @@ function CounterContainer(){
   }
 
   const [state, setState] = useState({counters: initialCounters });
+
   return(
     <Context.Provider value={[state, setState]}>
     <div id="CounterContainer" className="CounterContainer" style={styles}>
